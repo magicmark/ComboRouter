@@ -1,0 +1,40 @@
+{
+  "name": "combo-router",
+  "version": "0.0.1-alpha.1",
+  "description": "A wrapper around react-router-dom's BrowserRouter and StaticRouter, to provide safe SSR rendering",
+  "main": "build/ComboRouter.js",
+  "repository": "git@github.com:magicmark/combo-router.git",
+  "author": "Mark Larah <mark@larah.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "neutrino build",
+    "lint": "neutrino lint",
+    "test": "neutrino test"
+  },
+  "devDependencies": {
+    "@neutrinojs/airbnb-base": "^8.2.3",
+    "@neutrinojs/eslint": "^8.2.3",
+    "@neutrinojs/jest": "^8.2.3",
+    "@neutrinojs/library": "^8.2.3",
+    "@neutrinojs/react": "^8.2.3",
+    "@neutrinojs/react-components": "^8.2.3",
+    "eslint": "^4.19.1",
+    "flow-bin": "^0.74.0",
+    "neutrino": "^8.2.3",
+    "neutrino-preset-flow": "^0.0.4",
+    "neutrino-preset-react": "^7.4.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^4.3.1",
+    "react-testing-library": "^3.1.4"
+  },
+  "peerDependencies": {
+    "react": "16.4.0",
+    "react-router-dom": "4.x"
+  },
+  "dependencies": {},
+  "files": [
+    "src",
+    "build"
+  ]
+}
